@@ -11,7 +11,7 @@ The P in the P class stands for Polynomial Time. It is the collection of decisio
 =>Finding a maximum matching.
 =>Decision versions of linear programming.
 
-
+==================================================================================================================================
 
 2) NP Class :
 The NP in NP class stands for Non-deterministic Polynomial Time. It is the collection of decision problems that can be solved by a non-deterministic machine in polynomial time. 
@@ -20,7 +20,7 @@ The NP in NP class stands for Non-deterministic Polynomial Time. It is the colle
 =>The solutions of the NP class are hard to find since they are being solved by a non-deterministic machine but the solutions are easy to verify.
 =>Problems of NP can be verified by a Turing machine in polynomial time. 
 
-
+==================================================================================================================================
 
 3) NP-hard class :
 An NP-hard problem is at least as hard as the hardest problem in NP and it is a class of problems such that every problem in NP reduces to NP-hard.
@@ -35,6 +35,7 @@ An NP-hard problem is at least as hard as the hardest problem in NP and it is a 
 =>Qualified Boolean formulas.
 =>No Hamiltonian cycle.
 
+==================================================================================================================================
 
 4) NP-complete class
 A problem is NP-complete if it is both NP and NP-hard. NP-complete problems are the hard problems in NP.
