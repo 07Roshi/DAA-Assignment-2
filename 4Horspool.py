@@ -21,3 +21,9 @@ if index != -1:
     print("Pattern found at index", index)
 else:
     print("Pattern not found in the text")
+
+
+"""Output:
+
+Pattern found at index 7
+"""

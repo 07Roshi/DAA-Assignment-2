@@ -32,3 +32,10 @@ stages = 6
 optimal_path, min_cost = multistage_graph(graph, stages)
 print("Optimal Path:", optimal_path)
 print("Minimum Cost:", min_cost)
+
+
+"""Output:
+
+Optimal Path: [0, 5, 5, 0, 0, 0]
+Minimum Cost: 7
+"""

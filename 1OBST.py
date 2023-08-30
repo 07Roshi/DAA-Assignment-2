@@ -21,3 +21,9 @@ freq = [34, 8, 50, 23]
 
 result = optimal_bst(keys, freq)
 print("Minimum expected cost:", result)
+
+
+"""Output:
+
+Minimum expected cost: 157
+"""

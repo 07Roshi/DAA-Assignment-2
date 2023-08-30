@@ -23,3 +23,14 @@ for i in range(len(row_indices)):
     print("Task", row_indices[i], "-> Worker", col_indices[i])
 
 print("Total Cost:", total_cost)
+
+
+
+"""Output:
+
+Assignment:
+Task 0 -> Worker 2
+Task 1 -> Worker 1
+Task 2 -> Worker 0
+Total Cost: 20
+"""

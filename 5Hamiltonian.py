@@ -20,7 +20,7 @@ def hamiltonian_util(graph, path, pos):
 
 def hamiltonian(graph):
     path = [-1] * len(graph)
-    path[0] = 0  # Start from vertex 0
+    path[0] = 0 
 
     if not hamiltonian_util(graph, path, 1):
         print("No Hamiltonian path exists")
@@ -29,7 +29,7 @@ def hamiltonian(graph):
     print("Hamiltonian path:")
     for vertex in path:
         print(vertex, end=" ")
-    print(path[0])  # Print the starting vertex again to complete the cycle
+    print(path[0]) 
 
     return True
 
@@ -42,3 +42,10 @@ graph = [
 ]
 
 hamiltonian(graph)
+
+
+"""Output:
+
+Hamiltonian path:
+0 1 2 4 3 0
+"""
